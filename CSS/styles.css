@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: black;
+  height: 80px;
+}
+.primary-heading {
+  font-family: "Sacramento", cursive;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-width: 5px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top-container {
+  background-color: #b00b69;
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.main-head {
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.5rem; /* 16px=100%=1em */
+  display: inline-block;
+  transition: background-color 0.6s;
+}
+.main-head:hover {
+  background-color: #cebbc9;
+}
+.main-para {
+  font-size: 1.5rem;
+  /* display: block; */
+  /* transition: background-color 0.5s; */
+}
+/* .main-para:hover {
+  background-color: #cebbc9;
+} */
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  width: 220px;
+  right: 300px;
+  top: 50px;
+  height: auto;
+}
+.bottom-cloud {
+  position: absolute;
+  width: 220px;
+  left: 300px;
+  bottom: 300px;
+  height: auto;
+}
+.mountain {
+  transition: all 0.2s;
+}
+.mountain:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.middle-container {
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+  height: 300px;
+}
+.profile-photo {
+  height: 180px;
+  width: 180px;
+}
+.middle-head {
+  color: #b00b69;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.middle-para {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.skills {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+.head-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.secondary-heading {
+  color: #b00b69;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.tert-heading {
+  color: #b00b69;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.skills-container {
+  padding: 15px;
+  text-align: center;
+}
+.comp-img {
+  width: 35%;
+}
+.skills-para {
+  line-height: 2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.skills-container2 {
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px 0;
+}
+.skill-parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skill-cont {
+  text-align: center;
+  padding-top: 20px;
+}
+.contact-me {
+  padding-top: 20px;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  height: auto;
+  background: #3d94f6;
+  background-image: -webkit-linear-gradient(top, #b00b69, #b00b87);
+  background-image: -moz-linear-gradient(top, #b00b69, #b00b87);
+  background-image: -ms-linear-gradient(top, #b00b69, #b00b87);
+  background-image: -o-linear-gradient(top, #b00b69, #b00b87);
+  background-image: -webkit-gradient(to bottom, #b00b69, #b00b87);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  padding: 20px;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 250px;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #b00b87, #b00b69);
+  background-image: -moz-linear-gradient(top, #b00b87, #b00b69);
+  background-image: -ms-linear-gradient(top, #b00b87, #b00b69);
+  background-image: -o-linear-gradient(top, #b00b87, #b00b69);
+  background-image: -webkit-gradient(to bottom, #b00b87, #b00b69);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.bottom-container {
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+}
+.footer-link {
+  display: inline-block;
+  font-size: 1rem;
+  width: 120px;
+  height: auto;
+  color: #b00b69;
+}
+#watermark {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 15px;
+  color: #b00b69;
+}
